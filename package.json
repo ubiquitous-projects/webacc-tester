@@ -1,0 +1,34 @@
+{
+    "name": "webacc-tester",
+    "version": "1.0.0",
+    "description": "A NodeJS-based webapp for testing website accessibility.",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon index",
+        "prod": "node index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ubiquitous-projects/webacc-tester.git"
+    },
+    "keywords": [
+        "webacc",
+        "tester",
+        "webacc-tester"
+    ],
+    "author": "Michael K Macharia",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ubiquitous-projects/webacc-tester/issues"
+    },
+    "homepage": "https://github.com/ubiquitous-projects/webacc-tester#readme",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "express": "^4.17.3",
+        "pa11y": "^6.2.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
